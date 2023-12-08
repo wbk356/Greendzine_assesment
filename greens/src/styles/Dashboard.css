@@ -1,0 +1,218 @@
+.dashboard-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 660px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-right-logo {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    background: transparent url('D:\Greendzine_assesment\greens\src\assets\Group 46.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+  
+  .notification-badge-logo {
+    top: 104px;
+    left: 572px;
+    width: 71px;
+    height: 70px;
+    margin-bottom: 20px;
+    background: transparent url('D:\Greendzine_assesment\greens\src\assets\moptro logo.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    margin-bottom: 30px;
+  }
+  
+  .badge {
+    position: relative;
+    top: -17px;
+    right: -60px;
+    padding: 3px 9px;
+    border-radius: 100%;
+    background: #2a2929b5;
+    color: greenyellow;
+  }
+  
+  .dashboard-rectangle {
+    top: 215px;
+    left: 442px;
+    width: 328px;
+    height: 55px;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 1rem;
+  }
+  
+  .dashboard-text {
+    top: 224px;
+    left: 448px;
+    width: 322px;
+    height: 25px;
+    text-align: center;
+    font: normal normal bold 18px/25px Source Sans Pro;
+    letter-spacing: 0.01px;
+    color: #FFFFFFB3;
+    opacity: 0.84;
+  }
+  
+  .productivity-stats-rectangle {
+    top: 213px;
+    left: 442px;
+    width: 328px;
+    height: 465px;
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    line-height: 2.4;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+  }
+  
+  .productivity-stat-item {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .png-style {
+    width: 28px;
+    height: 28px;
+    background: transparent url('D:\Greendzine_assesment\greens\src\assets\moptro logo.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  
+  .split {
+    height: 40px;
+    width: 30%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 111px;
+  }
+  
+  .right {
+    right: 111px;
+
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 30px;
+  }
+  
+  .no {
+    margin-left: 50px;
+    color: #36e951;
+  }
+  
+  .progress_1,
+  .progress_2,
+  .progress_3,
+  .progress_4,
+  .progress_5,
+  .progress_6 {
+    border-radius: 50px 5px 5px 50px;
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+    background: #16ba2e80 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #10db2e;
+    opacity: 1;
+  }
+  
+  .progress_1 {
+    width: 12px;
+    height: 11px;
+  }
+  
+  .progress_2 {
+    width: 132px;
+    height: 11px;
+  }
+  
+  .progress_3 {
+    width: 192px;
+    height: 11px;
+  }
+  
+  .progress_4 {
+    width: 144px;
+    height: 11px;
+  }
+  
+  .progress_5 {
+    width: 118px;
+    height: 11px;
+  }
+  
+  .progress_6 {
+    width: 152px;
+    height: 11px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .dashboard-container {
+      width: 90%;
+    }
+
+    .left{
+        left: 50px;
+
+    }
+
+    .right{
+        right: 50px;
+
+    }
+  
+    .top-right-logo {
+      margin-left: 10;
+    }
+  
+    .notification-badge-logo {
+      left: auto;
+      right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .dashboard-rectangle {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+    }
+  
+    .dashboard-text {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .productivity-stats-rectangle {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+    }
+  }
+  

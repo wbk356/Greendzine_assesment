@@ -1,0 +1,153 @@
+.dashboard-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 660px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-right-logo {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    background: transparent url('D:\Greendzine_assesment\greens\src\assets\Group 46.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+  
+  .notification-badge-logo {
+    top: 104px;
+    left: 572px;
+    width: 71px;
+    height: 70px;
+    margin-bottom: 20px;
+    background: transparent url('D:\Greendzine_assesment\greens\src\assets\moptro logo.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    margin-bottom: 30px;
+  }
+  
+  .badge {
+    position: relative;
+    top: -17px;
+    right: -60px;
+    padding: 3px 9px;
+    border-radius: 100%;
+    background: #2a2929b5;
+    color: greenyellow;
+  }
+  
+  .dashboard-rectangle {
+    top: 215px;
+    left: 442px;
+    width: 328px;
+    height: 55px;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 1rem;
+  }
+  
+  
+  
+ 
+  
+  .productivity-stat-item {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .png-style {
+    width: 28px;
+    height: 28px;
+    background: transparent url('D:\Greendzine_assesment\greens\src\assets\moptro logo.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  
+  .split {
+    height: 40px;
+    width: 30%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 111px;
+  }
+  
+  .right {
+    right: 111px;
+
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .dashboard-container {
+      width: 90%;
+    }
+
+    .left{
+        left: 50px;
+
+    }
+
+    .right{
+        right: 50px;
+
+    }
+  
+    .top-right-logo {
+      margin-left: 10;
+    }
+  
+    .notification-badge-logo {
+      left: auto;
+      right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .dashboard-rectangle {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+    }
+  
+    .dashboard-text {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .productivity-stats-rectangle {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+    }
+  }
+  
