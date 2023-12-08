@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../styles/Login.css'; 
 import { useNavigate } from 'react-router-dom';
 
+const user = "admin";
+const pass = "adminpassword";
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -11,9 +13,8 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    // Check credentials
-    if (email === 'user@example.com' && password === 'password') {
-      // Redirect to dashboard (replace with your navigation logic)
+    // Bsic Login
+    if (email === user && password === pass) {
       navigate('/dashboard');
     } else {
       setErrorMessage('Wrong credentials. Please try again.');
@@ -41,7 +42,7 @@ const Login = () => {
       <button onClick={handleLogin} className="login-button">
         Login
       </button>
-      <a href='#'><p className="forgot-password-text">Forgot Password ?</p></a>
+      <a href='/'><p className="forgot-password-text">Forgot Password ?</p></a>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
     </div>
   );

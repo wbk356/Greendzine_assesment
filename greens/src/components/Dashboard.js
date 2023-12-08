@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Dashboard.css';
 import user from '../assets/user.png'
-import dog from '../assets/dog house.png'
+import house from '../assets/dog house.png'
 
 const Dashboard = () => {
   return (
@@ -31,13 +31,13 @@ const Dashboard = () => {
       <div className="navigation-box">
       <div class="split left">
   <div class="centered">
-  <img src={dog} alt="Avatar man"/>
+  <a href='/dashboard'><img src={house} alt="Avatar man"/></a>
   </div>
 </div>
 
 <div class="split right">
   <div class="centered">
-    <img src={user} alt="Avatar man"/>
+  <a href='/emplist'><img src={user} alt="Avatar man"/></a>
   </div>
 </div>
         

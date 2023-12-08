@@ -41,7 +41,7 @@
     padding: 3px 9px;
     border-radius: 100%;
     background: #2a2929b5;
-    color: greenyellow;
+    color: green;
   }
   
   .dashboard-rectangle {
@@ -136,7 +136,7 @@
     position: relative;
     cursor: pointer;
     margin: 10px;
-    background: #16ba2e80 0% 0% no-repeat padding-box;
+    background: green 0% 0% no-repeat padding-box;
     mix-blend-mode: normal;
     border: 1px solid #10db2e;
     opacity: 1;
